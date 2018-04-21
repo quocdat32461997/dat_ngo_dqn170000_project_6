@@ -1,8 +1,8 @@
 /*
  * Name: Dat Quoc Ngo
- * File:   example1.cc
- * Author: Stephen Perkins
- * Email:  stephen.perkins@utdallas.edu
+ * Email: dqn170000@utdallas.edu
+ * Course: CS3377.501
+ * Date: 04/20/2018
  */
 
 #include <iostream>
