@@ -10,7 +10,7 @@
 #include <stdint.h>
 #define MATRIX_WIDTH 3
 #define MATRIX_HEIGHT 5
-#define BOX_WIDTH 15
+#define BOX_WIDTH 30
 
 extern std::string array[];
 

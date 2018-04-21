@@ -10,9 +10,6 @@
 #include "program6.h"
 
 #define MATRIX_NAME_STRING "Binary File Contents"
-#define MATRIX_WIDTH 3
-#define MATRIX_HEIGHT 5
-#define BOX_WIDTH 15
 
 using namespace std;
 
