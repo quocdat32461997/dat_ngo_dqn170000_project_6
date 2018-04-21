@@ -12,7 +12,6 @@ using namespace std;
 
 string array[MATRIX_WIDTH * MATRIX_HEIGHT];
 
-
 int main()
 {
 	cout << "Rading the given binary file and draw a matrix" << endl;
