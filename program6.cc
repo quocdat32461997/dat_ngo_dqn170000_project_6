@@ -6,10 +6,6 @@
  */
 
 #include <iostream>
-#include "cdk.h"
-#include <fstream>
-#include <stdio.h>
-#include <stdint.h>
 #include "program6.h"
 
 using namespace std;
