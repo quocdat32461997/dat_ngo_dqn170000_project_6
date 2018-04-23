@@ -10,7 +10,7 @@
 #include <fstream>
 #include <stdio.h>
 #include <stdint.h>
-
+#include <ctype.h>
 using namespace std;
 
 void parsing_binary_file(string binary_file)
@@ -28,9 +28,11 @@ void parsing_binary_file(string binary_file)
 	
 	//read magicNumber
 	sprintf(buffer, "%x", myRecordHeader->magicNumber);
+	for(int i = 0; buffer[i] != '\n'; i++)
+		buffer[i] = toupper(buffer[i]);
 	array[0] = "Magic: 0x";
 	array[0] = array[0] + buffer;
-
+	
 	//read versionNUmber
 	sprintf(buffer, "%u", myRecordHeader->versionNumber);
 	array[1] = "Version: ";
